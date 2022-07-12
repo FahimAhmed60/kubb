@@ -1,0 +1,505 @@
+/* Common CSS */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+/* Common CSS Ends */
+
+/* Navbar Style Starts  */
+#navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 31px;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.menu ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 19px;
+    padding-right: 19px;
+
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/* Navbar style ends */
+/* CSS style starts */
+/* Banner style starts */
+#banner{
+    background: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 333px;
+    padding-bottom: 250px;
+}
+.banner-content{
+    color: white;
+    text-align: center;
+}
+.banner-content h1{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 17px;
+}
+.banner-content h2{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+/* Banner style ends */
+/* Service CSS starts */
+#service{
+    padding-top: 80px;
+    padding-bottom: 84px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+.service-header{
+    text-align: center;
+}
+.service-header h2{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #444444;
+}
+.service-header p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #444444;
+    padding-top: 32px;
+}
+.service-img-wrapper{
+    padding-top: 81px;
+}
+.img-headline h2{
+    text-align: center;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service-item{
+    width: 370px;
+    border: 1px solid #E3E3E3;
+    padding: 15px 15px 25px 15px;
+    float: left;
+}
+.service-img img{
+    display: block;
+}
+.service-text{
+    padding-top: 26px;
+    text-align: center;
+}
+.service-text h4{
+    color: #444444;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+.service-text p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #444444;
+    padding-top: 14px;
+}
+.service-wrapper{
+    padding-top: 27px;
+}
+.middle-item{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* Service CSS ends */
+/* Shots CSS starts */
+/* Icon style */
+.fa-instagram{
+    font-size: 15px;
+}
+/* Icon style ends*/
+#shots{
+    padding-top: 51px;
+    padding-bottom: 47px;
+    background-color: #2c2c2c;
+}
+.shots-head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.shots-head h2{
+    color: #f9f9f9;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.shots-head h2::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #faf9f9;
+    transform: translateY(50%);
+}
+.shots-head h2::before{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #faf9f9;
+    transform: translateY(50%);
+}
+.instra-image{
+    text-align: center;
+}
+.instra-image img{
+    float: left;
+    display: block;
+    width: 25%;
+}
+.btn{
+    text-align: center;
+    padding-top: 60px;
+}
+.btn-style{
+    text-transform: uppercase;
+    background-color: #2c2c2c;
+    padding-top: 19px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #f9f9f9;
+    border: 1px solid slategray;
+    position: relative;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-style a{
+    color: #f9f9f9;
+}
+.btn-style img {
+    top: 17px;
+    right: 138px;
+    width: 20px;
+    position: absolute;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+/* Shots CSS ends */
+/* Journal Section Starts */
+#journal{
+    background-color: #f9f9f9;
+    padding-top: 78px;
+}
+#journal .shots-head h2{
+    color: #444444;
+}
+#journal .shots-head h2::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(50%);
+}
+#journal .shots-head h2::before{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(50%);
+}
+.journal-wrapper{
+    margin-top: 30px;
+    background-color: #f9f9f9;
+}
+.journal-item{
+    width: 370px;
+    border: 1px solid #444444;
+    float: left;
+}
+.journal-item-header{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 21px;
+}
+.journal-item-content{
+    padding-top: 21px;
+    padding-left: 28px;
+}
+.reading-part{
+    padding-top: 11px;
+    padding-bottom: 24px; 
+}
+.reading-part h4 a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.reading-part span{
+    float: right;
+    font-weight: 400;
+    color: #444;
+    font-size: 11px;
+    padding-right: 35px;
+}
+.journal-item-header h4{
+    padding-bottom: 13px;
+}
+.journal-item-content p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 14px;
+    line-height: 24px;
+}
+.reading-part h4 a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #28b8d8;
+    bottom: -5px;
+    left: 0px;
+}
+/* Journal Section Ends */
+/* Portfolio section starts*/
+#portfolio{
+    background-color: #f9f9f9;
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+.port-left{
+    width: 570px;
+    margin-right: 30px;
+    float: left;
+}
+.port-right{
+    width: 570px;
+    float: left;
+}
+.port-left-header{
+    margin-bottom: 30px;
+}
+.port-left-header h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #444;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.port-left-header h3:after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #d9d9d9;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -115px;
+}
+.inner-left-img{
+    width: 197px;
+    margin-right: 26px;
+    float: left;
+}
+.inner-left-img img{
+    display: block;
+}
+.inner-left-content{
+    width: 347px;
+    float: left;
+}
+.inner-left-content h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+.inner-left-content p{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    line-height: 24px;
+}
+.port-right-icon{
+    width: 53px;
+    float: left;
+    margin-right: 17px;
+    text-align: center;
+}
+.port-right-content{
+    width: 500px;
+    float: left;
+}
+.port-right-content h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+    padding-bottom: 17px;
+}
+.port-right-content p{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    line-height: 22px;
+}
+.port-right-wrapper{
+    padding-bottom: 23px;
+}
+/* My services ends */
+/* About Me and My Services section ends */
+/* Footer section starts */
+#footer{
+    padding-top: 68px;
+    padding-bottom: 70px;
+    background-color: #373737;
+}
+.footer-item{
+    width: 270px;
+    float: left;
+}
+.sec-footer{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.third-footer{
+    margin-right: 30px;
+}
+.this{
+    float: left;
+}
+.footer-title h2{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f0f0;
+}
+.footer-para p{
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    color: #cacaca;
+    padding-top: 27px;
+    line-height: 24px;
+}
+.footer-icons-details{
+    margin-top: 39px;
+}
+.footer-icon{
+    width: 10px;
+    float: left;
+    margin-right: 12px;
+}
+.footer-icon-info{
+    width: 248px;
+    float: left;
+}
+.special-para p {
+    width: 223px;
+}
+.ague-para p{
+    width: 223px;
+}
+.footer-icon a, .footer-icon-info a{
+    color: #cacaca;
+}
+.footer-icon-middle{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/* Footer section ends */
+/* copyright section starts */
+#copyright{
+    padding-top: 41px;
+    padding-bottom: 37px;
+    background-color: #333333;
+}
+.copy-right p{
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    color: #cacaca;
+}
+/* copyright section ends */
+/* CSS style ends */
